@@ -3,8 +3,6 @@ package be.technifutur.decouverte.stream;
 import be.technifutur.decouverte.data.Personne;
 import org.junit.jupiter.api.*;
 
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Stream;
