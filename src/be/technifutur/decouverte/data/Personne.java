@@ -89,15 +89,21 @@ public class Personne implements Comparable<Personne>{
 
     public static Personne[] dataTest() {
         return new Personne[]{
+                null,
                 new Personne("Belmondo", "Jean-Paul", LocalDate.of(1933 , 4, 26), 176),
+                new Personne("Yanne", "Jean", LocalDate.of(1933 , 7, 18), 175),
                 new Personne("Laurent", "Mélanie", LocalDate.of(1983, 2, 21), 157),
                 new Personne("Gabin", "Jean", LocalDate.of(1904, 2, 2), 174),
-                new Personne("André Robert","Raimbourg" , LocalDate.of(1917,7,27), 174),
+                new Personne("Gabin", "Jean", LocalDate.of(1904, 2, 2), 174),
+                new Personne("Gabin", "Jean", LocalDate.of(1904, 2, 2), 174),
+                new Personne("Raimbourg","André Robert" , LocalDate.of(1917,7,27), 174),
                 new Personne("Deneuve", "Catherine", LocalDate.of(1943 ,10,22), 168),
                 new Personne("Brasseur", "Claude", LocalDate.of(1936, 6, 15), 175),
                 new Personne("Dewaere", "Patrick", LocalDate.of(1947, 1, 26), 177),
                 new Personne("Montand", "Yves", LocalDate.of(1921, 10, 13), 187),
-                new Personne("Louis", "de Funès", LocalDate.of(1914, 7, 31), 164)
+                new Personne("Gainsbourg", "Charlotte", LocalDate.of(1971, 7, 21), 173),
+                new Personne("Gainsbourg", "Serge", LocalDate.of(1928, 5, 2), 179),
+                new Personne("de Funès", "Louis", LocalDate.of(1914, 7, 31), 164)
         };
     }
 }
